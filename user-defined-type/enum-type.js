@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var request;
 (function (request) {
     request[request["createData"] = 3] = "createData";
@@ -12,3 +14,4 @@ var request2;
     request2["deleteData"] = "C";
 })(request2 || (request2 = {}));
 console.log(request2.createData);
+//# sourceMappingURL=enum-type.js.map
